@@ -667,10 +667,20 @@ footer{
         right: 100%;
     }
 }
-section{
+section:not(#home){
     opacity: 0;
     transform: translateY(60px);
     transition: 0.3s;
+}
+
+section.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#home{
+    opacity: 1;
+    transform: translateY(0);
 }
 section.show{
     opacity: 1;
