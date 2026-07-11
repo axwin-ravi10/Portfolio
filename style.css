@@ -676,6 +676,10 @@ section.show{
     opacity: 1;
     transform: translateY(0);
 }
+#home{
+    opacity: 1;
+    transform: translateY(0);
+}
 .sidebar a.active{
     color: #00d9ff;
 }
